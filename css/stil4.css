@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding:0;
+    
+    background-color:#891715;
+    color:white;
+    
+}  
+ header{
+     padding-top:20px;
+	 background-color:inherit;
+	width:80%;
+	position:relative;
+	text-align:center;
+	height:100px;
+	margin:auto;
+}
+ header img{
+    width:200px; 
+    height:75px; 
+    float:left;	
+}
+#menu {
+	top:10px;
+	width:80%;
+	position:relative;
+	background-color:#909090;
+	height:50px;
+	margin-left:10%;
+    margin-right:10%;
+}
+#button {
+	background-color:inherit;
+	border:0;
+	border-color:white;
+	color: white;
+	text-align:center;
+	height:50px;
+	width:100px;
+	
+}
+#button:hover{
+	border-left: double;
+	border-right: double;
+
+}
+.box1{
+    height: 300px;
+    background-color:#87A984;
+    position: relative;
+    bottom:10px;
+	width:80%;
+	margin-left:10%;
+    margin-right:10%;
+}
+#container {
+	float:left;
+    padding-right:60px;
+    padding-left:60px;
+	height:250px;
+	background-color:inherit;
+	
+}
+#container img {
+	width:200px;
+    padding:50px;
+	padding-right:none;
+background-color:inherit;
+}
+#tekst {
+	position: relative;
+    top: 90px;
+    padding-right:40px;
+	
+}
+.box2 {
+	background-color: #DBD8C5;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+	position: relative;
+    bottom:20px;
+	width:80%;
+	margin-left:10%;
+    margin-right:10%;
+	top:10px;
+}
+#container2 {
+	background-color: #96AFAC;
+	position: relative;
+	float: left;
+	color: white;
+}
+section  ul{
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    padding-right:50px;
+}
+
+section ul li{
+    border-bottom:2px solid white;
+    padding:10px;
+}
+#container3{
+	background-color:#DBD8C5;
+	position: relative;
+	float: right;
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	color:black;
+}
